@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-color: #f0f0f0;
+      }
+      input {
+        padding: 5px;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+      .container {
+        width: 400px;
+        height: 300px;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+      form {
+        display: grid;
+        gap: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container" id="root">
+      <h1>Đăng nhập</h1>
+      <form action="b2-chuan.php" method="post">
+        <input type="text" name="username" placeholder="Tên đăng nhập" />
+        <input type="password" name="password" placeholder="Mật khẩu" />
+        <input type="submit" value="Đăng nhập" />
+        <input type="reset" value="Reset" />
+      </form>
+    </div>
+  </body>
+</html>

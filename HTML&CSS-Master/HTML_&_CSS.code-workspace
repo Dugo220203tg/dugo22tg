@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../HTML_&_CSS"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "HTML&CSS-Master"
+  }
+}

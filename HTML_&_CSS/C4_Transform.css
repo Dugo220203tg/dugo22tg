@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    font-weight: 300;
+    font-style: italic;
+    height: 2000px;
+}
+.boxed{
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(32, 0, 212);
+    /* Transform: scale scaleX scaleY */
+    /* transform: scaleX(2) scaleY(2);
+    transform: scale(2,2);
+    transform: scale(0.5, 0.5); */
+    /* transform: rotate(-45deg);xoay bn do */
+    /*transform: translate();/*X Y Z*/
+    /* transform: scale(2) rotate(45deg) translate(100%, 50%); */
+    /* transform: skew(-30deg);
+    position: relative;
+    left: 10px;
+    top: 10px; */
+}
+.wrap{
+    width: 100%;height: 50rem;
+    background-color: rgb(161, 103, 103);
+    position: relative;
+}
+p{
+    color: #000000;
+    /* position: relative; */
+   /* z-index: 1;/* chi hoat dong khi su dung position*/
+}
+.boxed{
+    position: absolute;
+    /* bottom:10px;
+    left: 10px; */
+    /*center theo chieu ngang va chieu doc*/
+     /* left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);  */
+    /* overlay all*/
+    /* top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
+    /*cach 2*/
+    /* top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    width: auto;
+    height: auto; */
+    /* overlay THEO CHIEU NGANG*/
+    /* width: auto;
+    right: 0; 
+    top: 0;
+    left: 0; */
+    /* overlay THEO CHIEU doc*/
+    height: 100%;       
+    top: 0;
+    z-index: 2;
+}
+/* Them Wrapper ben ngoai header de header ko chay theo scroll */
+.wrapper{
+    transform: translate(50px, 50px);
+}
+.header{
+    height: 10rem;
+    background-color: rgb(255, 251, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+body{
+    padding-top: 10rem;
+}

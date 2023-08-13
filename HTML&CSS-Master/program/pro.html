@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root">
+      <form action="p2.php" method="post">
+        <table width="400" border="2" cellpadding="5" align="center">
+          <tr>
+            <th colspan="2">Đăng ký</th>
+          </tr>
+          <tr>
+            <td>Full Name</td>
+            <td>
+              <input
+                type="text"
+                name="fname"
+                size="30"
+                placeholder="Nhập fullname"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Username</td>
+            <td>
+              <input
+                type="text"
+                name="user"
+                size="30"
+                placeholder="Nhập name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td>
+              <input
+                type="password"
+                name="pass"
+                size="30"
+                placeholder="Nhập password"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Nhập lại password</td>
+            <td>
+              <input type="password" name="repass" size="30" placeholder="" />
+            </td>
+          </tr>
+          <tr>
+            <td>Giới Tính</td>
+            <td colspan="2">
+              <div class="radio">
+                <div class="radio_Nam">
+                  <input type="radio" id="nam" name="gioitinh" value="male" />
+                  <label for="male">Nam</label>
+                </div>
+                <div class="radio_Nu">
+                  <input type="radio" id="nu" name="gioitinh" value="female" />
+                  <label for="female">Nữ</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Ngày Sinh</td>
+            <td>
+              <select name="day">
+                <option value="ngay1">Ngay 1</option>
+                <option value="ngay2">Ngay 2</option>
+                <option value="ngay3">Ngay 3</option>
+              </select>
+              <select name="month">
+                <option value="nam2003">2003</option>
+                <option value="nam2004">2004</option>
+                <option value="nam2005">2005</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Địa chỉ</td>
+            <td>
+              <textarea cols="20" name="diachi"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>Avatar</td>
+            <td>
+              <input type="file" name="avarta" />
+            </td>
+          </tr>
+          <tr>
+            <td>Sở thích</td>
+            <td>
+              <div class="checkbox_XemPhim">
+                <input
+                  type="checkbox"
+                  name="sothich"
+                  id="xemphim"
+                  value="xem phim"
+                />
+                <label for="xemphim">Xem phim</label>
+              </div>
+              <div class="checkbox_TheThao">
+                <input
+                  type="checkbox"
+                  name="sothich"
+                  id="thethao"
+                  value="the thao"
+                />
+                <label for="thethao">Thể thao</label>
+              </div>
+              <div class="checkbox_Web">
+                <input type="checkbox" name="sothich" id="" value="web" />
+                <label for="web">web</label>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
+              <input type="reset" name="reset" value="Reset" /> &nbsp;&nbsp;
+              <input type="submit" name="OK" value="OK" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

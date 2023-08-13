@@ -1,0 +1,27 @@
+/* image{
+    display: block;
+} */
+.lmht{
+    width: 20rem;height: 40rem;
+}
+.riven1{
+    width: 30vw;height: 80vh;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 10px;
+    margin-top: 10rem;
+    margin-left: 8rem ;
+    margin-bottom: 4rem;
+    display: inline-block;
+    background-size: cover;
+    transition: background 0.25s linear;
+}
+.riven1:first-child{
+    background: url("https://i.pinimg.com/736x/68/12/1e/68121e75693bad384a7dce3333a80fa4.jpg")no-repeat center ;
+}
+.riven1:nth-child(2){
+    background: url("https://i.pinimg.com/564x/d4/c9/84/d4c984e7d8dedd019933256a064ace52.jpg")no-repeat center;
+}
+.riven1:nth-child(1):hover{
+    background: url("https://i.pinimg.com/564x/8b/6a/c6/8b6ac69e30c6c4a261e44c2401bcdf0a.jpg")no-repeat center;
+}

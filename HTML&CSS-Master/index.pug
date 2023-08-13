@@ -1,0 +1,29 @@
+include ./pug/mixins
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document     
+        link(rel='preconnect', href='https://fonts.googleapis.com')
+        link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+        link(href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,100;1,500;1,700&display=swap', rel='stylesheet')
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,100;1,500;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,100;1,500;1,700&display=swap" rel="stylesheet">
+        link(rel="stylesheet" href="./app.css" )
+        link(rel="stylesheet" href="./reset.css" ) 
+    body
+        section.top-heros
+            .one-list
+                h2.heading LEAGUE OF LEGEND
+                    .one 
+                        +lol-item("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg", "YASUA", "Dau si","KẺ BẤT DUNG THỨ","Khó")  
+                        +lol-item("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg", "AATROX", "Dau si","QUỶ KIẾM DARKIN","Trung bình")    
+                        +lol-item("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ryze_0.jpg", "RYZE", "Phap su","PHÁP SƯ CỔ NGỮ","Trung bình")   
+        section.main-heros 
+            .one-list
+                h2.heading SKILL 
+                .skill-list     
+                    +skill-item()
+

@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 100%;
+  font-weight: 300;
+  font-style: italic;
+}
+.background2 {
+  /* width: 100%;
+   height: 1000px; */
+  background-image: url("https://images.unsplash.com/photo-1688637079192-8eb1d6e4a30b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=736&q=80");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background: red; */
+  width: 100vw;
+  height: 100vw;
+}
+.em {
+  width: 10em;
+  height: 10em;
+  background-color: #ffa400;
+  font-size: 32px;
+  border: 10px solid firebrick;
+  border-radius: 10px;
+  border-radius: 50%;
+}
+.rem {
+  font-size: 32px;
+  width: 10rem;
+  height: 10rem;
+  background-color: #ff7870;
+  border-left: 10px dotted black;
+  border-radius: 5px;
+}
+*/ .html {
+  font-size: 100%;
+}
+.margin {
+  width: 4rem;
+  height: 4rem;
+  background-color: tomato;
+  margin: 50px 50px 50px 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.padding1 {
+  width: 10rem;
+  height: 10rem;
+  background-color: aqua;
+  margin: 0 auto;
+  overflow-y: auto;
+  padding: 10px;
+}
+.boxed {
+  width: 10rem;
+  height: 10rem;
+  border: 5px solid black;
+  padding: 1rem;
+  background-color: orange;
+}
+.wrap {
+  width: 400px;
+}
+a {
+  width: 10rem;
+  height: 2rem;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  background-color: black;
+  display: inline-block;
+  display: block;
+  /* display: none; */ /*ẨN*/
+}
+.font {
+  line-height: 1.5;
+  text-align: right;
+  text-align: center; /*can chinh cach xuong dong */
+  max-width: 500px;
+  letter-spacing: 1px; /*khoang cach giua cac ky tu*/
+  word-spacing: 5px; /* khoang cach giua cac tu */
+  /* hien thi dau 3 cham tren 1 hang */
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /*hien thi dau 3 cham tren dong thu 3*/
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 auto;
+}
+.name {
+  line-height: 1.5;
+  text-align: right;
+  word-break: break-all;
+  word-break: break-word;
+}
+image {
+  display: block;
+  max-width: 100%;
+}
+.image-wrap {
+  text-align: center;
+}
+.image {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  object-position: bottom;
+  margin: 0 auto;
+  display: inline-block;
+  border-radius: 50%;
+  /* the block co the dung margin de can giua trang 
+    con inline thi can chuyen sang dang ky tu roi dung text-align: center de chuyen*/
+}
+
+.pseudo {
+  color: black;
+  font-size: 5rem;
+}
+/* doi mau khi di chuyen vao chu */
+/* .pseudo:hover{
+    color: #ffa400;
+} */
+/* doi mau khi giu chuot vao */
+/* .pseudo:active{
+    color: aqua;
+} */
+/* doi mau khi nhan vao */
+.pseudo:visited {
+  color: red;
+}

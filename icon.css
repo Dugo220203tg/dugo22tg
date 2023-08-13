@@ -1,0 +1,23 @@
+.icon-group {
+  height: 50px;
+  width: 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: width 1s ease;
+}
+.icon-group:hover {
+  width: 175px;
+  justify-content: space-around;
+}
+.icon-group.icon-txt {
+  width: 0;
+  overflow: hidden;
+}
+.icon-group:hover .icon-txt {
+  width: fit-content;
+  transition: width 1s ease;
+}
+.icon-group .icon-bg {
+  position: absolute;
+  clip-path: circle(50% at -110% 60%);
+}

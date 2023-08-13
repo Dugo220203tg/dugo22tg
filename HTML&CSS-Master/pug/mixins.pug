@@ -1,0 +1,35 @@
+mixin lol-item(image, name, nname, role, level )
+    .ex1
+        img.ex1-image(line-height='18.4px', src=image, alt='')
+        .name
+            span= name
+        .content
+            h3.title=role
+        .rating
+            .role
+                img(width='50', height='50', src='https://i.pinimg.com/200x/14/15/9c/14159c30cf0514386fac37b39243be88.jpg', alt=''
+                ,class="rating")
+                .role1 VAI TRÒ
+                .role2= nname
+            .inf
+                img(width='50', height='50', src='https://www.asmc.com/media/image/75/80/ed/56543-0_600x600.jpg', alt=''
+                ,class="rating")
+                .level1 ĐỘ KHÓ
+                .level2= level
+        a.button(href='https://www.leagueoflegends.com/vi-vn/champions/yasuo/', target='_blank', rel='noopener noreferrer') LMHT
+mixin skill-item()
+    .skill 
+        .skill-image 
+            span.skill-label KỸ NĂNG 
+            .all-img-skill
+                img.skill-img1(src="https://ddragon.leagueoflegends.com/cdn/13.13.1/img/passive/Yasuo_Passive.png", alt="")
+                img.skill-img2(src="https://ddragon.leagueoflegends.com/cdn/13.13.1/img/passive/Yasuo_Passive.png", alt="")
+                img.skill-img3(src="https://ddragon.leagueoflegends.com/cdn/13.13.1/img/passive/Yasuo_Passive.png", alt="")
+                img.skill-img4(src="https://ddragon.leagueoflegends.com/cdn/13.13.1/img/passive/Yasuo_Passive.png", alt="")
+                img.skill-img5(src="https://ddragon.leagueoflegends.com/cdn/13.13.1/img/passive/Yasuo_Passive.png", alt="")
+            .skill-content
+                h6.role-skill NỘI TẠI
+                h5.name-skill ĐẠO CỦA LÃNG KHÁCH
+                p.text-skill Tỉ lệ Chí mạng của Yasuo được gia tăng. Ngoài ra, Yasuo tích lá chắn mỗi khi di chuyển. Lá chắn kích hoạt khi anh chịu sát thương từ tướng hoặc quái.
+        .skill-video
+            video(src='https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0157/ability_0157_P1.webm', controls=false, autoplay, height='100%', width='100%')
