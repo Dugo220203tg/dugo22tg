@@ -1,3 +1,6 @@
+
+/*  
+--gold:#d0a85c;  */
 * {
   margin: 0;
   padding: 0;
@@ -186,19 +189,23 @@ body {
   display: none;
 }
 .tab-pane.active {
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr  
 }
 .tab-video {
   display: none;
+  margin-top: -125px;
+  margin-right: -210px;
+  
 }
 .tab-video.active {
   display: block;
 }
-.skill {
+/* .skill {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
-}
+} */
 .skill-img1,
 .skill-img2,
 .skill-img3,
@@ -208,6 +215,8 @@ body {
   margin-right: 10px;
   margin-left: 15px;
   border: 2px solid #6e5525;
+  width: 70px;
+  height: 70px;
 }
 .skill-img {
   width: 100%;
@@ -228,6 +237,7 @@ body {
   text-transform: uppercase;
 }
 .name-skill {
+  display: inline-block;
   color: white;
   font-family: Beaufort for LOL;
   font-size: 18px;
