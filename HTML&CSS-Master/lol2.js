@@ -33,24 +33,4 @@ tabs.forEach((tab, index) => {
   };
 });
 
-// const tabs = document.querySelectorAll(".tab-img");
-// const panes = document.querySelectorAll(".tab-pane");
-// const videos = document.querySelectorAll(".tab-video");
 
-// tabs.forEach((tab, index) => {
-//   const pane = panes[index];
-//   const video = videos[index];
-//   tab.addEventListener("click", function () {
-//     const activeTab = document.querySelector(".tab-img.active");
-//     const activePane = document.querySelector(".tab-pane.active");
-//     const activeVideo = document.querySelector(".tab-video.active");
-
-//     activeTab.classList.remove("active");
-//     activePane.classList.remove("active");
-//     activeVideo.classList.remove("active");
-
-//     this.classList.add("active");
-//     pane.classList.add("active");
-//     video.classList.add("active");
-//   });
-// });
